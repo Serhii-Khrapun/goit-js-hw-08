@@ -15,6 +15,7 @@ const createImg = galleryItems
   )
   .join(" ");
 
+
 galleryElement.insertAdjacentHTML("afterbegin", createImg);
 const lightbox = new SimpleLightbox('.gallery a', { captionsData:'alt', captionDelay:250});
 
